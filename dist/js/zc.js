@@ -55,7 +55,7 @@ window.onload=function(){
 						email:$("#c2-1").val(),
 						sex:$("#c2-2").val()
 					},function(data){
-						//location.href = "delu.html";
+						location.href = "delu.html";
 					})
 					
 				})

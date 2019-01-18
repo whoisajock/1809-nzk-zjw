@@ -55,8 +55,9 @@ var a=/^[0-9]{11,13}$/;
 					},function(data){
 						if(data.code==0){
 							$.cookie("token",data.data.token);
-							location.href = "shouye.html";
+							
 						}
+						location.href = "shouye.html";
 					})
 				})
 			});
